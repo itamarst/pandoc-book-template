@@ -54,5 +54,5 @@ Change the font from Rosario / Ubuntu Mono to your font of choice; any installed
 To convert to PDF:
 
 ```
-$ pandoc -s --toc --pdf-engine=xelatex -V --toc-depth 2 --highlight-style tango yourbook.md --out yourbook.pdf
+$ pandoc -s --toc --pdf-engine=xelatex -V --toc-depth 2 --highlight-style=tango yourbook.md --out yourbook.pdf
 ```
