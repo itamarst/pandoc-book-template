@@ -5,7 +5,7 @@ RUN apt-get -y -q install texlive-latex-recommended
 RUN DEBIAN_FRONTEND='noninteractive'  apt-get -y install texlive-xetex
 
 # RUN apt-get -y install texlive-fonts-extra
-RUN apt-get -y install lmodern fontconfig fonts-noto
+RUN apt-get -y install lmodern fontconfig fonts-noto fonts-ubuntu
 RUN apt-get -y install libfontconfig1 libfreetype6 tar wget perl gnupg gzip xzdec
 
 # install Rosario font
